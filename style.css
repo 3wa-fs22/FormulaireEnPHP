@@ -1,0 +1,115 @@
+@font-face {
+	font-family: "bootstrap-icons";
+	src: url("./fonts/bootstrap-icons.woff2");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: local("Roboto"), url("./fonts/Roboto-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: local("Roboto"), url("./fonts/Roboto-Regular.ttf");
+	font-weight: bold;
+	font-style: normal;
+}
+*,
+*::before,
+*::after {
+	font-family: "Roboto", "bootstrap-icons", sans-serif;
+	font-size: 1rem;
+	box-sizing: border-box;
+}
+
+form {
+	max-width: 400px;
+	margin: 40px auto;
+	background-color: #ececec;
+	padding: 30px 20px 100px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #d4d4d4;
+	position: relative;
+}
+
+label {
+	color: #0a0131;
+}
+
+input {
+	padding: 10px;
+	width: 94%;
+	border-radius: 5px;
+	margin: 0 0 20px 0;
+	border: none;
+	border-bottom: 1px solid #0a0131;
+	background-color: inherit;
+	outline: 0;
+	color: inherit;
+}
+
+input::placeholder {
+	color: #737080;
+}
+
+input:focus {
+	border-bottom: 2px solid #00f;
+}
+
+input[type="checkbox"] {
+	margin-top: 20px;
+	width: fit-content;
+}
+.avatar-container {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.file-upload {
+	display: none;
+}
+.avatar-label {
+	cursor: pointer;
+	position: relative;
+}
+.avatar-label::after {
+	font-size: 2rem;
+	content: "\F4FE";
+	color: gray;
+	position: absolute;
+	bottom: 30px;
+	right: 34px;
+}
+
+.avatar {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+button {
+	padding: 10px 20px;
+	border-radius: 5px;
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	border: none;
+	color: #fff;
+	background-color: #0a0131;
+	box-shadow: 0px 4px 10px #0a0131;
+}
+
+button:active {
+	box-shadow: none;
+}
+
+h3 {
+	text-align: center;
+	color: red;
+}
+
+h2 {
+	text-align: center;
+}
